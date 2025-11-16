@@ -1,0 +1,13 @@
+
+/* effetto ghiaccio */
+body {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(245, 255, 255, 0.9) 25%,
+    rgba(220, 240, 255, 0.6) 50%,
+    rgba(200, 225, 255, 0.35) 75%,
+    rgba(255, 255, 255, 0) 100%
+  ),
+  rgb(255, 255, 255);
+}
