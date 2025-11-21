@@ -18,42 +18,54 @@
 <body>
     
     <!-- NAVBAR -->
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    
-                    <a class="navbar-brand" href="https://www.rottentomatoes.com/">Rotten Tomatoes</a>
-                    
-                    <!-- creo un Button, imposto la classe su navbar-toggler... -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Bottone"
-                    aria-controls="Bottone" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <div class="collapse navbar-collapse" id="Bottone">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link"
-                            href="https://www.rottentomatoes.com/browse/movies_in_theaters/sort:popular">Movies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                            href="https://www.rottentomatoes.com/browse/tv_series_browse/sort:popular">TV Show</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                            href="https://editorial.rottentomatoes.com/">News</a>
-                        </li>
-                    </ul>
-                </div>
-                
-            </nav>
-            
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
+    <div class="container-fluid">
+
+        <!-- LOGO / BRAND -->
+        <a class="navbar-brand" href="https://www.rottentomatoes.com/">
+            Rotten Tomatoes
+        </a>
+
+        <!-- BOTTONE MOBILE -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#Bottone"
+                aria-controls="Bottone"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- MENU -->
+        <div class="collapse navbar-collapse" id="Bottone">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="https://www.rottentomatoes.com/browse/movies_in_theaters/sort:popular">
+                       Movies
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="https://www.rottentomatoes.com/browse/tv_series_browse/sort:popular">
+                       TV Shows
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link"
+                       href="https://editorial.rottentomatoes.com/">
+                       News
+                    </a>
+                </li>
+
+            </ul>
         </div>
+
     </div>
-</div>
+</nav>
 
 <!-- HERO -->
 <header class="bg-light text-center hero-section">
